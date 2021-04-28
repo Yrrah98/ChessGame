@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using ChessEngine.Interfaces.Entities;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -8,6 +9,8 @@ namespace ChessGame
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        private IBoardEntity _chessBoard;
 
         public Game1()
         {

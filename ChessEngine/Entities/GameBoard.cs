@@ -9,12 +9,16 @@ namespace ChessEngine.Entities
 {
     public class GameBoard : IBoardEntity
     {
+
+        public IDictionary<int[,], IPieceEntity> CurrentGame { get; set; }
+
+
         /// <summary>
         /// CONSTRUCTOR for GameBoard class
         /// </summary>
         public GameBoard() 
         {
-            // DO NOTHING
+            // INSTANTIATE BOARD 
         }
     }
 }
