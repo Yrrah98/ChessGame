@@ -13,6 +13,6 @@ namespace ChessEngine.Interfaces.Entities
         /// PROPERTY: GameBoard, a dictionary where each position on the board is a key and may have a single 
         /// piece entity as a value;
         /// </summary>
-        IDictionary<int[,], IPieceEntity> CurrentGame { get; set; }
+        IDictionary<String, IPieceEntity> CurrentGame { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace ChessEngine.Entities
     public class GameBoard : IBoardEntity
     {
 
-        public IDictionary<int[,], IPieceEntity> CurrentGame { get; set; }
+        public IDictionary<String, IPieceEntity> CurrentGame { get; set; }
 
 
         /// <summary>
@@ -19,6 +19,7 @@ namespace ChessEngine.Entities
         public GameBoard() 
         {
             // INSTANTIATE BOARD 
+
         }
     }
 }

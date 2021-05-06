@@ -22,6 +22,17 @@ namespace ChessEngine.Managers
         public IBoardEntity MakeBoard() 
         {
 
+            char[] boardLetters = new char[8] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
+
+
+            for (int i = 0; i < 8; i++) 
+            {
+
+                for (int j = 0; j < 8; j++) 
+                {
+                    // Make game board using string + num
+                }
+            }
 
             return null;
         }
