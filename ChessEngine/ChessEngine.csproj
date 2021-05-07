@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Entities\GameBoard.cs" />
     <Compile Include="Entities\PieceEntity.cs" />
     <Compile Include="Interfaces\Entities\IBoardEntity.cs" />
     <Compile Include="Interfaces\IChessFactory.cs" />

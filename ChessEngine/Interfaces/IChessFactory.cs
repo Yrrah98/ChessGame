@@ -13,7 +13,7 @@ namespace ChessEngine.Interfaces
         /// METHOD: To make the board, which will contain references to all pieces on each position
         /// </summary>
         /// <returns></returns>
-        IBoardEntity MakeBoard();
+        IBoardEntity MakeBoard<t>() where t : IBoardEntity, new();
         /// <summary>
         /// METHOD: To make a game piece, each piece will store its own movement style/pattern
         /// </summary>
